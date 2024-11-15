@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
 
 body{
     background-color: #2f2e35;
+    font-family: 'SF Pro Display', sans-serif;
+                                                
 }
 button {
     font-weight: bold;
@@ -16,14 +18,14 @@ button {
     cursor: pointer;
     background-color: transparent;
     padding: 1rem 2rem;
-    border: 3px solid #ffe45c;
+    border: 3px solid #30bee1;
     color: #fff;
     transition: all 0.25s linear;
     border-radius:5px;
 
 
     &:hover{
-        background-color: #ffe45c;
+        background-color: #30bee1;
         color: #2f2e35;
 
     }
@@ -40,7 +42,7 @@ h4 {
     font-weight: bold;
 }
 span{
-color:#ffe45c;
+color:#30bee1;
 font-weight: bold;
 }
 a {
@@ -48,7 +50,7 @@ a {
 }
 p{
     padding: 3 rem 0rem;
-    color: #ccc;
+    color: #30bee1;
     font-size: 1.4 rem;
     line-height: 150%;
 }
