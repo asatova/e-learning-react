@@ -1,7 +1,7 @@
 import React from "react";
 
 const FaqSection = () => {
-    return
+    return(
      <div className="faq">
         <h2>Any Questions? <span>FAQ</span></h2>
         <div className="question">Can i learning from 0? </div>
@@ -12,6 +12,7 @@ const FaqSection = () => {
         <div className="answer">lorem</div>
    
     </div>
+    );
 };
 
 export default FaqSection;
