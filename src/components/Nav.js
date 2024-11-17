@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 
@@ -10,9 +11,9 @@ const Nav = () => {
             <a href="#" id="logo">e-Learning</a>
         </h1>
         <ul>
-            <li><a href="#!">About Us</a></li>
-            <li><a href="#!">Courses</a></li>
-            <li><a href="#!">Contact Us</a></li>
+            <li><Link href="#!">About Us</Link></li>
+            <li><Link  href="#!">Courses</Link></li>
+            <li><Link href="#!">Contact Us</Link></li>
         </ul>
     </StyledNav>
     );
@@ -46,7 +47,7 @@ ul{
 }
 li{
     padding-left: 10rem;
-    
+
 }
 `
 

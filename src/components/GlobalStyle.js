@@ -33,7 +33,7 @@ button {
 
 h2{
     font-weight: lighter;
-    font-size: 4 rem;
+    font-size:56px;
     }
 h3{
     color: #fff;
@@ -52,7 +52,7 @@ a {
 p{
     padding: 3 rem 0rem;
     color: #30bee1;
-    font-size: 1.4 rem;
+    font-size: 25px;
     line-height: 150%;
 }
 
