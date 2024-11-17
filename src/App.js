@@ -1,12 +1,15 @@
 import React from 'react';
 //import pages
 import AboutUs from './pages/AboutUs';
-import GlobalStyle from "./components/GlobalStyle"
+import GlobalStyle from "./components/GlobalStyle";
+import Nav from "./components/Nav";
+
+
 function App() {
     return (
         <div className="App"> 
-       <h1>eLearning</h1>
-       <GlobalStyle />
+           <GlobalStyle />
+       <Nav />
        <AboutUs />
         </div>
     )
