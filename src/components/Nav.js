@@ -8,7 +8,7 @@ const Nav = () => {
     return (
     <StyledNav>
         <h1>
-            <Link to="#" id="logo">e-Learning</Link>
+            <Link to="/" id="logo">e-Learning</Link>
         </h1>
         <ul>
             <li><Link to="/">About Us</Link></li>
