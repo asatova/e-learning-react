@@ -1,10 +1,10 @@
 // import images
-import react from "./img/benefit.jpg";
-import react2 from "./img/benefit.jpg";
-import js from "./img/benefit.jpg";
-import js2 from "./img/benefit.jpg";
-import soon from "./img/benefit.jpg";
-import soon2 from "./img/benefit.jpg";
+import react from "./images/benefit.jpg";
+import react2 from "./images/benefit.jpg";
+import js from "./images/benefit.jpg";
+import js2 from "./images/benefit.jpg";
+import soon from "./images/benefit.jpg";
+import soon2 from "./images/benefit.jpg";
 
 export const CourseState = () => {
   return [
