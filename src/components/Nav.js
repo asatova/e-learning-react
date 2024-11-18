@@ -8,12 +8,12 @@ const Nav = () => {
     return (
     <StyledNav>
         <h1>
-            <a href="#" id="logo">e-Learning</a>
+            <Link to="#" id="logo">e-Learning</Link>
         </h1>
         <ul>
-            <li><Link href="#!">About Us</Link></li>
-            <li><Link  href="#!">Courses</Link></li>
-            <li><Link href="#!">Contact Us</Link></li>
+            <li><Link to="/">About Us</Link></li>
+            <li><Link  to="/courses">Courses</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
         </ul>
     </StyledNav>
     );

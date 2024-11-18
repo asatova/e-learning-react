@@ -6,27 +6,27 @@ import Nav from "./components/Nav";
 import Courses from './pages/Courses';
 import ContactUs from './pages/ContactUs';
 // Router
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from  "react-router-dom";
 
 function App() {
     return (
-        <Router> {/* Wrap everything in BrowserRouter */}
+        
             <div className="App"> 
                 <GlobalStyle />
                 <Nav />
                 <Switch>
-                    <Route path="/" exact>  
+                    <Route path = "/" exact>  
                         <AboutUs />
                     </Route>
-                    <Route path="/courses"> 
+                    <Route path = "/courses"> 
                         <Courses />
                     </Route>
-                    <Route path="/contact"> 
+                    <Route path = "/contact"> 
                         <ContactUs />
                     </Route>
                 </Switch>
             </div>
-        </Router>
+      
     );
 }
 
