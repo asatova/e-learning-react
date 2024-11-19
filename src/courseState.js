@@ -18,6 +18,7 @@ export const CourseState = () => {
           title: "lorem ipsum dolor",
           description:
             "Lorem ipsum dolor in pret sit amet, consectetur adipiscing elit in pret sit amet",
+            price:"500",
         },
         {
           title: "lorem ipsum dolor",

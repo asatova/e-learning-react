@@ -12,7 +12,7 @@ const Courses = () => {
             <Course>
             <h2>React course</h2>
             <div className="line"></div>
-                <Link>
+                <Link to="/courses/react">
                 <img src={image} alt="react" />
                  </Link>
                  </Course>
@@ -20,7 +20,7 @@ const Courses = () => {
                  <Course>
             <h2>React course</h2>
             <div className="line"></div>
-                <Link>
+                <Link to="/courses/soon">
                 <img src={image} alt="react" />
                  </Link>
                  </Course>
@@ -28,7 +28,7 @@ const Courses = () => {
                  <Course>
             <h2>React course</h2>
             <div className="line"></div>
-                <Link>
+                <Link to="/courses/javascript">
                 <img src={image} alt="react" />
                  </Link>
                  </Course>
