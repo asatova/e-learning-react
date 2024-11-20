@@ -2,13 +2,14 @@ import React from "react";
 import image from "../images/benefit.jpg"
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
+import {motion} from "framer-motion";
+import { pageAnimation } from "../animation";
 
 
 
 const Courses = () => {
     return (
-        <StyledCourses>
+        <StyledCourses exit="exit" variants={pageAnimation} initial="hidden" animate="show">
             <Course>
             <h2>React course</h2>
             <div className="line"></div>
